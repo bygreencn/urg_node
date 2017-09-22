@@ -7,7 +7,7 @@ project(urg_node)
 find_package(catkin REQUIRED COMPONENTS roscpp sensor_msgs urg_c rosconsole nodelet dynamic_reconfigure tf laser_proc diagnostic_updater)
 
 # Dynamic reconfigure support
-generate_dynamic_reconfigure_options(cfg/URG.cfg)
+generate_dynamic_reconfigure_options(include/cfg/URG.cfg)
 
 ###################################################
 ## Declare things to be passed to other projects ##
